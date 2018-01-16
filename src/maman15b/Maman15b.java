@@ -1,21 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package maman15b;
 
-/**
- *
- * @author elira
- */
 public class Maman15b {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int[][] a = {{2, 2},{3,3}};
+        int[][] b = {{1,3},{6,7}};
+        
+        MatrixMultiplier multiplier = new MatrixMultiplier(new Matrix(a), new Matrix(b));
+        multiplier.execute();
     }
     
 }
